@@ -1,47 +1,55 @@
-![](https://simgbb.com/images/logo.png)
-# IMGBB Uploader
+<img src="https://simgbb.com/images/logo.png" width="300px">
 
-Simple program for auto uploading image to imgbb.com
+## IMGBB Image Uploader
 
-### Bennefits
+A simple program to automatically upload images to https://imgbb.com
+
+### Benefit
 
 * Free (but illegal)
-* Can upload image from local storage or URL
-* Don't need register any account
-* Can uploading many image massively
+* Can upload images from local storage or URL
+* No need to register any account
+* Can upload multiple images in bulk
 
-Saddly, i don't add 'auto delete' to this tool, but you can contribute to this project to add it.
+Unfortunately, I didn't add 'auto delete' to this tool, but you can contribute to this project to add it.
 
 ### Why IMGBB
-imgbb.com is a free image hosting service that allow us save our image online and accessible for public so we can share it in website, social network etc.
-But, if you want to use they API, you must purchase pro account.
-With this tool, you don't need that because we can upload many images with no charge !
+imgbb.com is a free image hosting service that allows us to save images online and accessible to the public so that we can share them on websites, social networks, etc.
 
-**This tool is free but illegal**
-So, please use this tool wisely.
+But, if you want to use their API, you have to buy a pro account.
+
+With this tool, you don't need it because we can upload multiple images for free!
+
+**This tool is free but illegal. So please use this tool wisely.**
 
 
-### You must know
-imgbb file have one class caled imgBB.
-**paramenter**
+### You should know
+The imgbb file has one class called `imgBB`. 
+
+**Parameter**
 * `image_source`
-image file path, can from local storage or URL
+Image file path, can be from local storage or URL
 
-**attributes**
+
+**Attributes**
+
 * `json`
-All response from imgbb.com server
+All responses from imgbb.com server
+
 * `url`
-Public URL for our uploaded image
+Public URL for the image we uploaded
 * `thumbnail`
-Like it name, it return the thumbnail URL
+As the name suggests, it returns a thumbnail URL
 * `filename`
-Same as thumbnail, but it just file name string
+Same as thumbnail, but only filename string
+
 
 ### Usage
-Before using this tool, you must installing `requests` module
-> pip install requests
+Before using this tool, you must install the `requests` module
 
-Code snippet to uploading few images from our local storage
+> pip install request
+
+Code snippet to upload multiple images from our local storage
 ```
 from imgbb import imgBB as uploadImage
 import os, time
