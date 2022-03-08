@@ -49,7 +49,23 @@ Before using this tool, you must install the `requests` module
 
 > pip install request
 
-Code snippet to upload multiple images from our local storage
+Code snippet to upload image from our local storage
+
+
+**Single image**
+```
+from imgbb import imgBB
+import json
+
+image = "my-image.jpg"
+result = imbBB(image)
+print(json.dumps(result,indent=2))
+```
+
+The code above will print formatted json from response result
+
+
+**Multiple images**
 ```
 from imgbb import imgBB as uploadImage
 import os, time
@@ -61,3 +77,4 @@ for image_path in list_images:
 	print(result.url)
 	time.sleep(10)
 ```
+Printing each result URL for uploaded image
