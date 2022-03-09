@@ -7,11 +7,12 @@ A simple program to automatically upload images to https://imgbb.com
 ### Advantages of this tool
 
 * Free (but illegal)
+* No need API Key
 * Can upload images from local storage or URL
 * No need to register any account
 * Can upload multiple images in bulk
 
-Unfortunately, I didn't add 'auto delete' to this tool, but you can contribute to this project to add it.
+Unfortunately, I didn't add 'auto delete' feature to this tool, but you can contribute to this project to add it.
 
 ### About imgbb.com
 imgbb.com is a free image hosting service that allows us to save images online and accessible to the public so that we can share them on websites, social networks, etc.
