@@ -4,7 +4,7 @@
 
 A simple program to automatically upload images to https://imgbb.com
 
-### Benefit
+### Advantages of this tool
 
 * Free (but illegal)
 * Can upload images from local storage or URL
@@ -13,7 +13,7 @@ A simple program to automatically upload images to https://imgbb.com
 
 Unfortunately, I didn't add 'auto delete' to this tool, but you can contribute to this project to add it.
 
-### Why IMGBB
+### About imgbb.com
 imgbb.com is a free image hosting service that allows us to save images online and accessible to the public so that we can share them on websites, social networks, etc.
 
 But, if you want to use their API, you have to buy a pro account.
@@ -23,8 +23,10 @@ With this tool, you don't need it because we can upload multiple images for free
 **This tool is free but illegal. So please use this tool wisely.**
 
 
+
+
 ### You should know
-The imgbb file has one class called `imgBB`. 
+The imgbb.py file has one class called `imgBB`. 
 
 **Parameter**
 * `image_source`
@@ -34,7 +36,7 @@ Image file path, can be from local storage or URL
 **Attributes**
 
 * `json`
-All responses from imgbb.com server
+Return all responses from imgbb.com server as json
 
 * `url`
 Public URL for the image we uploaded
@@ -44,10 +46,13 @@ As the name suggests, it returns a thumbnail URL
 Same as thumbnail, but only filename string
 
 
+
+
 ### Usage
 Before using this tool, you must install the `requests` module
 
 > pip install request
+
 
 Code snippet to upload image from our local storage
 
