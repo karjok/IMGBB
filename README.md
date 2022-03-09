@@ -77,4 +77,4 @@ for image_path in list_images:
 	print(result.url)
 	time.sleep(10)
 ```
-Printing each result URL for uploaded image
+And the code above will display the url of each photo uploaded to imgbb
