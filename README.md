@@ -59,7 +59,7 @@ Code snippet to upload image from our local storage
 
 
 **Single image**
-```
+```python
 from imgbb import imgBB
 import json
 
@@ -72,7 +72,7 @@ The code above will print formatted json from response result
 
 
 **Multiple images**
-```
+```python
 from imgbb import imgBB as uploadImage
 import os, time
 
